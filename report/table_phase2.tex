@@ -1,0 +1,14 @@
+\begin{tabular}{lrr}
+\toprule
+Test set, released retrieval & EA & PA \\
+\midrule
+Greedy decoding (same model) & 61.1 & 59.3 \\
+Beam search (16), top-1 & 61.5 & 59.5 \\
++ answer voting over beams ($k{=}8$, $T{=}2.0$; dev-selected) & 61.9 & 59.8 \\
++ learned reranker (gbm d3; dev-trained) & 62.1 & 60.0 \\
+\midrule
+Voting over 3 independently trained models & 62.4 & -- \\
+Oracle: right answer among top-16 beams & 80.3 & -- \\
+Oracle: right answer from any of 3 models & 68.9 & -- \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,23 @@
+\begin{tabular}{lrrr}
+\toprule
+Category (test) & $n$ & Full recall@5 & Fact recall@5 \\
+\midrule
+All questions & 1147 & 86.5 & 89.8 \\
+\midrule
+\multicolumn{4}{l}{\emph{Gold evidence modality}} \\
+\quad table & 706 & 95.3 & 96.2 \\
+\quad text & 283 & 84.1 & 85.2 \\
+\quad hybrid & 158 & 51.3 & 77.2 \\
+\multicolumn{4}{l}{\emph{Program steps}} \\
+\quad 1 & 654 & 87.3 & 90.9 \\
+\quad 2 & 409 & 85.6 & 87.6 \\
+\quad 3+ & 84 & 84.5 & 89.8 \\
+\multicolumn{4}{l}{\emph{Operator family}} \\
+\quad add\_sub\_mul & 295 & 83.1 & 87.5 \\
+\quad ratio & 793 & 86.9 & 90.1 \\
+\quad comparison & 20 & 95.0 & 97.2 \\
+\quad table\_agg & 39 & 100.0 & 100.0 \\
+\midrule
+Random top-5 (chance) & & 11.5 & \\
+\bottomrule
+\end{tabular}
