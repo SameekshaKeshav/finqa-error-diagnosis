@@ -1,0 +1,11 @@
+data/raw/
+*.pt
+__pycache__/
+.pytest_cache/
+.venv/
+*.aux
+*.log
+*.out
+*.blg
+*.bbl
+.DS_Store

@@ -1,0 +1,10 @@
+# Core (CPU analysis + tests work with just numpy/matplotlib/pytest)
+numpy
+matplotlib
+pytest
+tqdm
+# Models (Colab/Kaggle already ship a CUDA build of torch)
+torch
+transformers
+tokenizers
+scikit-learn
