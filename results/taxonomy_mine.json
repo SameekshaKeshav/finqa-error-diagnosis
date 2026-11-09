@@ -1,0 +1,279 @@
+{
+  "n": 1147,
+  "ea": 0.6006974716652136,
+  "pa": 0.5815170008718396,
+  "locus": {
+    "correct": 689,
+    "generation": 357,
+    "both": 93,
+    "retrieval": 8
+  },
+  "by_axis": {
+    "modality": {
+      "hybrid": {
+        "n": 158,
+        "ea": 0.37341772151898733,
+        "pa": 0.36075949367088606,
+        "retrieval_complete": 0.569620253164557,
+        "n_wrong": 99,
+        "locus": {
+          "generation": 56,
+          "both": 39,
+          "retrieval": 4
+        },
+        "error_type": {
+          "structure_error": 69,
+          "operand_error": 30
+        }
+      },
+      "table": {
+        "n": 706,
+        "ea": 0.6813031161473088,
+        "pa": 0.6558073654390935,
+        "retrieval_complete": 0.9348441926345609,
+        "n_wrong": 225,
+        "locus": {
+          "generation": 195,
+          "both": 28,
+          "retrieval": 2
+        },
+        "error_type": {
+          "operand_error": 115,
+          "structure_error": 108,
+          "non_executable": 2
+        }
+      },
+      "text": {
+        "n": 283,
+        "ea": 0.5265017667844523,
+        "pa": 0.519434628975265,
+        "retrieval_complete": 0.8409893992932862,
+        "n_wrong": 134,
+        "locus": {
+          "generation": 106,
+          "both": 26,
+          "retrieval": 2
+        },
+        "error_type": {
+          "operand_error": 50,
+          "structure_error": 84
+        }
+      }
+    },
+    "steps_bin": {
+      "1": {
+        "n": 654,
+        "ea": 0.6513761467889908,
+        "pa": 0.6330275229357798,
+        "retrieval_complete": 0.8608562691131498,
+        "n_wrong": 228,
+        "locus": {
+          "generation": 176,
+          "both": 45,
+          "retrieval": 7
+        },
+        "error_type": {
+          "operand_error": 129,
+          "structure_error": 98,
+          "non_executable": 1
+        }
+      },
+      "2": {
+        "n": 409,
+        "ea": 0.5916870415647921,
+        "pa": 0.5721271393643031,
+        "retrieval_complete": 0.8557457212713936,
+        "n_wrong": 167,
+        "locus": {
+          "generation": 126,
+          "both": 40,
+          "retrieval": 1
+        },
+        "error_type": {
+          "operand_error": 59,
+          "structure_error": 107,
+          "non_executable": 1
+        }
+      },
+      "3+": {
+        "n": 84,
+        "ea": 0.25,
+        "pa": 0.2261904761904762,
+        "retrieval_complete": 0.8928571428571429,
+        "n_wrong": 63,
+        "locus": {
+          "generation": 55,
+          "both": 8
+        },
+        "error_type": {
+          "operand_error": 7,
+          "structure_error": 56
+        }
+      }
+    },
+    "op_family": {
+      "add_sub_mul": {
+        "n": 295,
+        "ea": 0.4406779661016949,
+        "pa": 0.43050847457627117,
+        "retrieval_complete": 0.8305084745762712,
+        "n_wrong": 165,
+        "locus": {
+          "generation": 128,
+          "both": 35,
+          "retrieval": 2
+        },
+        "error_type": {
+          "operand_error": 56,
+          "structure_error": 109
+        }
+      },
+      "comparison": {
+        "n": 20,
+        "ea": 0.8,
+        "pa": 0.6,
+        "retrieval_complete": 0.85,
+        "n_wrong": 4,
+        "locus": {
+          "generation": 3,
+          "both": 1
+        },
+        "error_type": {
+          "structure_error": 2,
+          "operand_error": 2
+        }
+      },
+      "ratio": {
+        "n": 793,
+        "ea": 0.6443883984867591,
+        "pa": 0.6279949558638083,
+        "retrieval_complete": 0.8663303909205549,
+        "n_wrong": 282,
+        "locus": {
+          "generation": 219,
+          "both": 57,
+          "retrieval": 6
+        },
+        "error_type": {
+          "operand_error": 136,
+          "structure_error": 145,
+          "non_executable": 1
+        }
+      },
+      "table_agg": {
+        "n": 39,
+        "ea": 0.8205128205128205,
+        "pa": 0.7692307692307693,
+        "retrieval_complete": 1.0,
+        "n_wrong": 7,
+        "locus": {
+          "generation": 7
+        },
+        "error_type": {
+          "operand_error": 1,
+          "structure_error": 5,
+          "non_executable": 1
+        }
+      }
+    },
+    "n_gold_bin": {
+      "1": {
+        "n": 568,
+        "ea": 0.647887323943662,
+        "pa": 0.6232394366197183,
+        "retrieval_complete": 0.9788732394366197,
+        "n_wrong": 200,
+        "locus": {
+          "generation": 191,
+          "both": 8,
+          "retrieval": 1
+        },
+        "error_type": {
+          "operand_error": 84,
+          "structure_error": 115,
+          "non_executable": 1
+        }
+      },
+      "2": {
+        "n": 454,
+        "ea": 0.6079295154185022,
+        "pa": 0.5925110132158591,
+        "retrieval_complete": 0.8502202643171806,
+        "n_wrong": 178,
+        "locus": {
+          "generation": 135,
+          "both": 40,
+          "retrieval": 3
+        },
+        "error_type": {
+          "operand_error": 90,
+          "structure_error": 87,
+          "non_executable": 1
+        }
+      },
+      "3+": {
+        "n": 125,
+        "ea": 0.36,
+        "pa": 0.352,
+        "retrieval_complete": 0.368,
+        "n_wrong": 80,
+        "locus": {
+          "both": 45,
+          "generation": 31,
+          "retrieval": 4
+        },
+        "error_type": {
+          "structure_error": 59,
+          "operand_error": 21
+        }
+      }
+    },
+    "retrieval": {
+      "complete": {
+        "n": 988,
+        "ea": 0.638663967611336,
+        "pa": 0.6224696356275303,
+        "retrieval_complete": 1.0,
+        "n_wrong": 357,
+        "locus": {
+          "generation": 357
+        },
+        "error_type": {
+          "operand_error": 154,
+          "structure_error": 201,
+          "non_executable": 2
+        }
+      },
+      "miss": {
+        "n": 19,
+        "ea": 0.2631578947368421,
+        "pa": 0.05263157894736842,
+        "retrieval_complete": 0.0,
+        "n_wrong": 14,
+        "locus": {
+          "both": 13,
+          "retrieval": 1
+        },
+        "error_type": {
+          "structure_error": 7,
+          "operand_error": 7
+        }
+      },
+      "partial": {
+        "n": 140,
+        "ea": 0.37857142857142856,
+        "pa": 0.36428571428571427,
+        "retrieval_complete": 0.0,
+        "n_wrong": 87,
+        "locus": {
+          "both": 80,
+          "retrieval": 7
+        },
+        "error_type": {
+          "operand_error": 34,
+          "structure_error": 53
+        }
+      }
+    }
+  }
+}

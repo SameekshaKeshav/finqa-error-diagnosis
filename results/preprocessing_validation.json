@@ -1,0 +1,59 @@
+{
+  "row_serialisation_vs_dataset": {
+    "exact": 9155,
+    "whitespace_only": 690,
+    "header_row_differs": 56
+  },
+  "row_serialisation_total": 9901,
+  "gold_ids_pointing_at_nonexistent_facts": [
+    {
+      "split": "train",
+      "id": "RE/2010/page_120.pdf-2",
+      "gold_id": "text_-1"
+    }
+  ],
+  "operand_coverage": {
+    "train": {
+      "all_facts": {
+        "operand_coverage": 0.998611882287618,
+        "programs_fully_grounded": 0.9968005119180932
+      },
+      "gold_facts": {
+        "operand_coverage": 0.9984036646307607,
+        "programs_fully_grounded": 0.9963205887058071
+      },
+      "released_top5": {
+        "operand_coverage": 0.9907690172126596,
+        "programs_fully_grounded": 0.9841625339945609
+      }
+    },
+    "dev": {
+      "all_facts": {
+        "operand_coverage": 0.9979705733130391,
+        "programs_fully_grounded": 0.9954699886749717
+      },
+      "gold_facts": {
+        "operand_coverage": 0.9979705733130391,
+        "programs_fully_grounded": 0.9954699886749717
+      },
+      "released_top5": {
+        "operand_coverage": 0.9705733130390665,
+        "programs_fully_grounded": 0.9467723669309174
+      }
+    },
+    "test": {
+      "all_facts": {
+        "operand_coverage": 0.9988601823708206,
+        "programs_fully_grounded": 0.997384481255449
+      },
+      "gold_facts": {
+        "operand_coverage": 0.9988601823708206,
+        "programs_fully_grounded": 0.997384481255449
+      },
+      "released_top5": {
+        "operand_coverage": 0.9741641337386018,
+        "programs_fully_grounded": 0.9546643417611159
+      }
+    }
+  }
+}

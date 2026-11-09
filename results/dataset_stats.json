@@ -1,0 +1,161 @@
+{
+  "train": {
+    "n_questions": 6251,
+    "n_documents_text_sentences_mean": 24.27211646136618,
+    "n_table_rows_mean": 6.339625659894417,
+    "n_facts_per_doc_mean": 30.611742121260598,
+    "tokens_per_doc_mean": 841.469684850424,
+    "n_gold_facts_mean": 1.7102863541833306,
+    "steps_bin": {
+      "2": 2013,
+      "3+": 521,
+      "1": 3717
+    },
+    "modality": {
+      "text": 1458,
+      "hybrid": 870,
+      "table": 3923
+    },
+    "op_family": {
+      "ratio": 4301,
+      "comparison": 122,
+      "add_sub_mul": 1630,
+      "table_agg": 198
+    },
+    "operators": {
+      "divide": 4445,
+      "multiply": 567,
+      "greater": 124,
+      "subtract": 2739,
+      "add": 1512,
+      "table_average": 95,
+      "table_max": 48,
+      "table_min": 27,
+      "table_sum": 36,
+      "exp": 5
+    },
+    "crosstab_steps_x_modality": {
+      "1": {
+        "table": 2466,
+        "text": 782,
+        "hybrid": 469
+      },
+      "2": {
+        "table": 1197,
+        "text": 550,
+        "hybrid": 266
+      },
+      "3+": {
+        "table": 260,
+        "text": 126,
+        "hybrid": 135
+      }
+    }
+  },
+  "dev": {
+    "n_questions": 883,
+    "n_documents_text_sentences_mean": 24.124575311438278,
+    "n_table_rows_mean": 6.265005662514156,
+    "n_facts_per_doc_mean": 30.389580973952434,
+    "tokens_per_doc_mean": 833.6511891279728,
+    "n_gold_facts_mean": 1.7134767836919593,
+    "steps_bin": {
+      "1": 523,
+      "2": 287,
+      "3+": 73
+    },
+    "modality": {
+      "table": 542,
+      "hybrid": 143,
+      "text": 198
+    },
+    "op_family": {
+      "ratio": 610,
+      "add_sub_mul": 228,
+      "table_agg": 35,
+      "comparison": 10
+    },
+    "operators": {
+      "divide": 636,
+      "subtract": 416,
+      "multiply": 83,
+      "add": 180,
+      "table_average": 19,
+      "table_sum": 4,
+      "table_max": 8,
+      "greater": 10,
+      "table_min": 5,
+      "exp": 1
+    },
+    "crosstab_steps_x_modality": {
+      "1": {
+        "table": 342,
+        "text": 111,
+        "hybrid": 70
+      },
+      "2": {
+        "table": 163,
+        "text": 71,
+        "hybrid": 53
+      },
+      "3+": {
+        "table": 37,
+        "text": 16,
+        "hybrid": 20
+      }
+    }
+  },
+  "test": {
+    "n_questions": 1147,
+    "n_documents_text_sentences_mean": 24.712292938099388,
+    "n_table_rows_mean": 6.553618134263296,
+    "n_facts_per_doc_mean": 31.265911072362684,
+    "tokens_per_doc_mean": 826.4847428073234,
+    "n_gold_facts_mean": 1.6591107236268527,
+    "steps_bin": {
+      "1": 654,
+      "2": 409,
+      "3+": 84
+    },
+    "modality": {
+      "table": 706,
+      "text": 283,
+      "hybrid": 158
+    },
+    "op_family": {
+      "add_sub_mul": 295,
+      "ratio": 793,
+      "comparison": 20,
+      "table_agg": 39
+    },
+    "operators": {
+      "subtract": 521,
+      "divide": 820,
+      "greater": 20,
+      "table_average": 15,
+      "add": 260,
+      "table_max": 10,
+      "multiply": 109,
+      "table_sum": 10,
+      "exp": 3,
+      "table_min": 4
+    },
+    "crosstab_steps_x_modality": {
+      "1": {
+        "table": 441,
+        "text": 124,
+        "hybrid": 89
+      },
+      "2": {
+        "table": 223,
+        "text": 133,
+        "hybrid": 53
+      },
+      "3+": {
+        "table": 42,
+        "text": 26,
+        "hybrid": 16
+      }
+    }
+  }
+}

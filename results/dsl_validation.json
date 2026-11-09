@@ -1,0 +1,20 @@
+{
+  "train": {
+    "n": 6251,
+    "token_roundtrip_ok": 6251,
+    "exec_matches_gold": 6251,
+    "pa_self_ok": 6251
+  },
+  "dev": {
+    "n": 883,
+    "token_roundtrip_ok": 883,
+    "exec_matches_gold": 883,
+    "pa_self_ok": 883
+  },
+  "test": {
+    "n": 1147,
+    "token_roundtrip_ok": 1147,
+    "exec_matches_gold": 1147,
+    "pa_self_ok": 1147
+  }
+}
