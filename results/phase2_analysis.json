@@ -1,0 +1,66 @@
+{
+ "single": {
+  "gen_released": [
+   0.6050566695727986,
+   0.5884917175239756
+  ],
+  "gen_released_s1": [
+   0.6102877070619006,
+   0.5893635571054926
+  ],
+  "gen_released_s2": [
+   0.5963382737576286,
+   0.5789014821272885
+  ],
+  "gen_beam": [
+   0.6111595466434177,
+   0.5928509154315605
+  ]
+ },
+ "vote": {
+  "3 models": 0.6242371403661726,
+  "4 models": 0.6303400174367916
+ },
+ "any_correct": {
+  "3 models": 0.6887532693984307,
+  "4 models": 0.7149084568439407
+ },
+ "mechanisms": {
+  "n_wrong_pooled": 1809,
+  "counts": {
+   "wrong_operand": 655,
+   "too_many_steps": 337,
+   "too_few_steps": 428,
+   "wrong_operator": 261,
+   "wrong_constant": 67,
+   "args_swapped": 42,
+   "wrong_reference": 19
+  },
+  "by_steps": {
+   "1": {
+    "too_many_steps": 259,
+    "wrong_operand": 434,
+    "wrong_operator": 138,
+    "wrong_constant": 28,
+    "args_swapped": 24
+   },
+   "2": {
+    "wrong_operand": 210,
+    "too_few_steps": 246,
+    "wrong_constant": 33,
+    "wrong_operator": 113,
+    "args_swapped": 18,
+    "wrong_reference": 13,
+    "too_many_steps": 38
+   },
+   "3+": {
+    "too_few_steps": 182,
+    "too_many_steps": 40,
+    "wrong_operand": 11,
+    "wrong_reference": 6,
+    "wrong_constant": 6,
+    "wrong_operator": 10
+   }
+  }
+ }
+}
